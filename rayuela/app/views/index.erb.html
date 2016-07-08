@@ -1,0 +1,28 @@
+<header>
+  <img src="img/codea-logo.png" id="logo">
+</header>
+
+<h1 id="main-title">¡RAYUELA!</h1>
+    <button id="start_btn">Jugar</button><br><br>
+    <h2 id="countdown"> </h2>
+    <table class="table">
+      <tr id="Player1">
+        <td id="player1"><strong>Jugador 1</strong></td>
+        <td id="num_tab_1" class="active"></td>
+        <% for num_table in 2 .. 100%>
+       <td id="num_tab_<%=num_table%>"> </td>       
+        <%end%>
+        
+      </tr>
+
+      <tr id="Player2">
+        <td id="player2"><strong>Jugador 2</strong></td>
+        <td id="num_tab_1" class="active"></td>
+        <% for num_table in 2 .. 100%>
+        <td id="num_tab_<%=num_table%>"> </td>
+        <%end%>
+      </tr>
+
+
+      </table>
+    <center><h1 id="ganador"><h1></center>

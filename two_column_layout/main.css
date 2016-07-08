@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  width: 750px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+#turtles {
+
+  padding-top: 100px;
+}
+
+#pricing {
+  padding-top: 100px;
+  /*display: block;*/
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+ 
+}
+
+.main-title {
+  text-align: center;
+}
+
+.feature {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
